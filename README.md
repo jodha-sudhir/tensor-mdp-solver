@@ -10,16 +10,16 @@ This repository provides MATLAB and Python implementations of an exact, tensor-b
 
 Standard dynamic programming solvers suffer from the **curse of dimensionality**, where the state and action spaces grow exponentially with the number of components. This solver leverages the Kronecker product decomposition to evaluate the Bellman optimality update without ever constructing the full, intractable transition matrix. It scales linearly rather than exponentially, allowing for exact global optimal policies on large-scale deteriorating civil infrastructure networks.
 
-## 📖 Related Publication
+## Full Paper
 This code is the companion to our paper:
 > **"Probabilistic Hazard Analysis Framework with Stochastic Optimal Control for Deteriorating Civil Infrastructure Systems"** > Read the full preprint on arXiv: [https://arxiv.org/abs/2604.23068]
 
-## ✨ Key Features
-* **Exact Solutions:** Computes the true optimal policy without approximation techniques.
-* **Memory Efficient:** Avoids storing the massive joint transition matrix by utilizing sequential mode-$k$ tensor products.
-* **Dual Implementations:** Full source code available in both MATLAB and Python.
+##  Key Features
+**Exact Solutions:** Computes the true optimal policy without approximation techniques.
+**Memory Efficient:** Avoids storing the massive joint transition matrix by utilizing sequential mode-$k$ tensor products.
+**Dual Implementations:** Full source code available in both MATLAB and Python.
 
-## 🚀 Installation & Setup
+## Setup
 
 ### Python
 1. Clone the repository:
