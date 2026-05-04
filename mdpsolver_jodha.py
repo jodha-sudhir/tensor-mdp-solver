@@ -15,7 +15,7 @@ def mdpsolver_jodha(P_s, R_sys, discount, N_horizon):
     Reference:
     Jodha, S. P., & Papakonstantinou, K. G. (2026). "Probabilistic Hazard 
     Analysis Framework with Stochastic Optimal Control for Deteriorating Civil 
-    Infrastructure Systems." Structural Safety.
+    Infrastructure Systems." Engineering Structures.
     
     Copyright (c) 2026 Sudhir P. Jodha
     Licensed under the MIT License.
