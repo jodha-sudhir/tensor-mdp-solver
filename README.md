@@ -8,7 +8,7 @@ MATLAB &amp; Python implementations of an exact, tensor-based MDP solver for lif
 
 This repository provides MATLAB and Python implementations of an exact, tensor-based Markov Decision Process (MDP) solver. 
 
-Standard dynamic programming solvers suffer from the **curse of dimensionality**, where the state and action spaces grow exponentially with the number of components. This solver leverages the Kronecker product decomposition to evaluate the Bellman optimality update without ever constructing the full, intractable transition matrix. It scales linearly rather than exponentially, allowing for exact global optimal policies on large-scale deteriorating civil infrastructure networks.
+Standard dynamic programming solvers suffer from the **curse of dimensionality**, where the state and action spaces grow exponentially with the number of components. This solver leverages the Kronecker product decomposition to evaluate the Bellman optimality update without ever constructing the full, intractable transition matrix. It also utilize the tensor algebra to scale linearly rather than exponentially, allowing for exact global optimal policies on large-scale deteriorating civil infrastructure networks.
 
 ## Full Paper
 This code is the companion to our paper:
