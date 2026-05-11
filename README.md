@@ -24,5 +24,5 @@ This code is the companion to our paper:
 ### Python
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/tensor-mdp-solver.git](https://github.com/yourusername/tensor-mdp-solver.git)
+   git clone [https://github.com/jodha-sudhir/tensor-mdp-solver.git](https://github.com/jodha-sudhir/tensor-mdp-solver.git)
    cd tensor-mdp-solver/python
